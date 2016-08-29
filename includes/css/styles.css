@@ -1,0 +1,128 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   ul.unstyled{
+     padding: 0;
+     list-style:none;
+   }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #seachinput{
+    width:200px;
+    padding-top: 15px;
+  }
+  .well li{
+    padding 5px;
+
+  }
+  .navbar-form{
+    margin-top: 20px;
+  }
+  .navbar li{
+
+    padding: 10px 20px 10px 10px;
+  }
+  .navbar-brand{
+    padding: 0 20px;
+    width: 100%;
+  }
+
+
+  .navbar li{
+    padding: 15px;
+  }
+  .asd
+  {
+    padding: 0px;
+  }
+  .page-header{
+    margin: 100px;
+height: 20px;
+  }
+  .page-header li{
+    display: inline;
+    float: right;
+  }
+
+  footer{
+    background: #e6ffff;
+    font-size: 11px;
+    padding: 10px;
+  }
+
+  #bigcallout1{
+    height: 100px;
+  }
+
+  .jumbotron img{
+    padding: 80px;
+  }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #mycarousel4 .item{
+     height: 239px;
+   }
+#slide10{
+  background: url('../../images/p2.jpg') top center no-repeat;
+}
+#slide11{
+  background: url('../../images/p5.jpg') top center no-repeat;
+}
+#slide12{
+  background: url('../../images/p8.jpg') top center no-repeat;
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #aru{
+    width: 120%;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #aru{
+    width: 100%;
+  }
+}
